@@ -78,24 +78,57 @@
 //     }
 // } while (menuChoice != "0");
 
-// Шаг 9. Прямой, обратный счёт и шаг, отличный от 1:
+// // Шаг 9. Прямой, обратный счёт и шаг, отличный от 1:
+
+// Console.WriteLine();
+// Console.WriteLine("Прямой счет");
+// for (int i = 1; i <= 5; i++)
+// {
+//     Console.WriteLine(i);
+// }
+// Console.WriteLine();
+// Console.WriteLine("Обратный счет");
+// for (int i = 5; i >= 1; i--)
+// {
+//     Console.WriteLine(i);
+// }
+// Console.WriteLine();
+// Console.WriteLine("Четные числа от 0 до 20");
+// for (int i = 0; i <= 20; i += 2)
+// {
+//     Console.Write($"{i} ");
+// }
+// Console.WriteLine();
+
+// // Шаг 11. foreach по строке и подсчёт гласных:
+
+// Console.WriteLine();
+// Console.WriteLine("foreach по строке");
+// string word = "Программирование";
+// foreach (char letter in word)
+// {
+//     Console.Write($"{letter} ");
+// }
+// Console.WriteLine();
+// Console.WriteLine();
+// Console.WriteLine("Считаем гласные");
+// string sentence = "Курс алгоритмизации и программирования";
+// string vowels = "аеёиоуыэюяАЕЁИОУЫЭЮЯ";
+// int vowelCount = 0;
+// foreach (char letter in sentence)
+// {
+//     if (vowels.Contains(letter))
+//     {
+//         vowelCount++;
+//     }
+// }
+// Console.WriteLine($"Гласных букв в предложении: {vowelCount}");
+
+// Шаг 12. Вложенные циклы: таблица умножения, треугольник и break во внутреннем цикле:
 
 Console.WriteLine();
-Console.WriteLine("Прямой счет");
-for (int i = 1; i <= 5; i++)
+Console.WriteLine("Таблица умножения 1-9");
+for (int row = 1; row <= 9; row++)
 {
-    Console.WriteLine(i);
+    
 }
-Console.WriteLine();
-Console.WriteLine("Обратный счет");
-for (int i = 5; i >= 1; i--)
-{
-    Console.WriteLine(i);
-}
-Console.WriteLine();
-Console.WriteLine("Четные числа от 0 до 20");
-for (int i = 0; i <= 20; i += 2)
-{
-    Console.Write($"{i} ");
-}
-Console.WriteLine();

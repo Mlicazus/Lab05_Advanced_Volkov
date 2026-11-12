@@ -124,11 +124,39 @@
 // }
 // Console.WriteLine($"Гласных букв в предложении: {vowelCount}");
 
-// Шаг 12. Вложенные циклы: таблица умножения, треугольник и break во внутреннем цикле:
+// // Шаг 12. Вложенные циклы: таблица умножения, треугольник и break во внутреннем цикле:
 
-Console.WriteLine();
-Console.WriteLine("Таблица умножения 1-9");
-for (int row = 1; row <= 9; row++)
-{
-    
-}
+// Console.WriteLine();
+// Console.WriteLine("Таблица умножения 1-9");
+// for (int row = 1; row <= 9; row++)
+// {
+//     for (int col = 1; col <= 9; col++)
+//     {
+//         System.Console.Write($"{row * col,4}");
+//     }
+//     System.Console.WriteLine();
+// }
+// System.Console.WriteLine();
+// System.Console.WriteLine("Треугольник");
+// for (int row = 1; row <= 5; row++)
+// {
+//     for (int col = 1; col <= row; col++)
+//     {
+//         System.Console.Write("*");
+//     }
+//     System.Console.WriteLine();
+// }
+// System.Console.WriteLine();
+// System.Console.WriteLine("break прерывает только ВНУТРЕННИЙ цикл");
+// for (int row = 1; row <= 3; row++)
+// {
+//     System.Console.WriteLine($"Внешняя итерация: {row}");
+//     for (int col = 1; col <= 5; col++)
+//     {
+//         if (col == 3)
+//         {
+//             break;
+//         }
+//         System.Console.WriteLine($"  Внутренняя итерация: {col}");
+//     }
+// }

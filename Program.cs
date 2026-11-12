@@ -160,3 +160,5 @@
 //         System.Console.WriteLine($"  Внутренняя итерация: {col}");
 //     }
 // }
+
+
